@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": "src",
+    "outDir": "api",
+    "module": "NodeNext",
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "paths": {
+      "*": ["node_modules/*", "./src/utils/types.ts"]
+    }
+  },
+  "include": ["./src/**/*"]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "pern-ecommerce",
+  "version": "0.1.0",
+  "description": "A full e-commerce website template written using the PERN stack (Postgresql, Express js, React js and Node js) and using typescript fot the overall development typechecking with vercel as the hosting provider.",
+  "main": "api/index.js",
+  "author": "dumani <dumanimedia@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dumanimedia/pern-commerce/issues"
+  },
+  "homepage": "https://github.com/dumanimedia/pern-commerce#readme",
+  "scripts": {
+    "dev": "nodemon",
+    "build:server": "npx tsc",
+    "start": "build:server && node ./api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dumanimedia/pern-ecommerce.git"
+  },
+  "keywords": [
+    "pern",
+    "ecommerce",
+    "e-commerce",
+    "postgres",
+    "postgresql",
+    "fullstack",
+    "react",
+    "node",
+    "express",
+    "typescript"
+  ],
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}
