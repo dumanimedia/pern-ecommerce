@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
     "strict": true,
-    "baseUrl": "src",
-    "outDir": "api",
+    "baseUrl": "./backend/src",
+    "outDir": "./backend/api",
     "module": "NodeNext",
     "skipLibCheck": true,
     "noImplicitAny": true,
     "esModuleInterop": true,
     "paths": {
-      "*": ["node_modules/*", "./src/utils/types.ts"]
+      "*": ["node_modules/*", "./backend/src/utils/types.ts"]
     }
   },
-  "include": ["./src/**/*"]
+  "include": ["./backend/src/**/*"]
 }

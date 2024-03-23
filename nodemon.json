@@ -1,5 +1,5 @@
 {
-  "watch": ["src"],
   "ext": ".ts,.js",
-  "exec": "ts-node --transpile-only ./src/index.ts"
+  "watch": ["backend/src"],
+  "exec": "ts-node --transpile-only ./backend/src/index.ts"
 }
